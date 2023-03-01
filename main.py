@@ -3,7 +3,7 @@ from fastapi import FastAPI, status, Response
 import pandas as pd
 import json
 import csv
-from models import Iris
+from model import Iris
 
 app = FastAPI()
 
